@@ -1,0 +1,35 @@
+.main__header {
+    width: 100%;
+}
+
+.header__nav {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header__nav img {
+    position: absolute;
+    left: 50%;
+    margin-left: -69px;
+}
+
+.nav__list {
+    min-height: 56px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list li {
+    list-style: none;
+    width: 239px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__list--item {
+    text-decoration: none;
+}
