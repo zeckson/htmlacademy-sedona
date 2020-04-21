@@ -92,3 +92,22 @@ main {
     line-height: 21px;
     text-transform: uppercase;
 }
+.main__about-service{
+    display: flex;
+    min-height: 330px;
+}
+.about__service{
+    width: 402px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__service p{
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
