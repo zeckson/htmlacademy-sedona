@@ -111,3 +111,130 @@ main {
     line-height: 21px;
     text-transform: uppercase;
 }
+
+.main__about-2{
+    display: flex;
+}
+
+.main__about-2--text{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #81b3d2;
+    color: white;
+}
+
+.about-2__title{
+    display: inline-block;
+    text-align: center;
+    font-size: 21px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main__about-2--text p{
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.main__about--advantage{
+    display: flex;
+    min-height: 256px;
+    background-color: #eeeeee;
+}
+.about__advantage{
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__advantage--title{
+    display: inline-block;
+    text-align: center;
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about__advantage p{
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.booking{
+    min-height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking__title{
+    display: inline-block;
+    text-align: center;
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.booking p{
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.booking__btn{
+    padding: 37px 140px;
+    margin-top: 52px;
+    background-color: #766357;
+    color: white;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: bold;
+    border: none;
+}
+
+.booking__pop-up{
+    display: none;
+    width: 570px;
+    height: 397px;
+}
+
+.main__footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 120px;
+    margin-top: -120px;
+    background-color: rgba(253,253,253, 0.9);
+}
+
+.footer__social--link{
+    margin: 0;
+    display: flex;
+}
+
+.footer__social--link li{
+    list-style: none;
+    padding-right: 5px;
+
+}
+.footer__develop{
+    display: flex;
+}
