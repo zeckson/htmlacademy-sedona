@@ -1,4 +1,5 @@
-.hotels__filter{
+
+.hotels__filter {
     min-height: 154px;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -8,20 +9,16 @@
     display: flex;
 }
 
-.filter__infrastructure{
+.filter__infrastructure {
     min-width: 141px;
     padding-left: 74px;
 }
 
 
-
-
-.filter__type-house{
+.filter__type-house {
     min-width: 141px;
     padding-left: 114px;
 }
-
-
 
 
 .range__filter {
@@ -124,7 +121,7 @@
     left: 60%;
 }
 
-.filter__btn{
+.filter__btn {
     display: block;
     padding: 7px 25px;
     margin: 0 auto;
@@ -138,7 +135,76 @@
 }
 
 .filter__btn:hover,
-.filter__btn:focus{
+.filter__btn:focus {
     background: gray;
 }
+
+
+.result__sort {
+    min-height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px rgba(0,0,0, 0.2) solid;
+}
+
+.search__result {
+    display: flex;
+    align-items: center;
+    min-width: 137px;
+}
+
+.result__title {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.search__sort {
+    display: flex;
+    align-items: center;
+    margin-left: 48px;
+    min-width: 358px;
+}
+
+.sort__title {
+    font-size: 12px;
+    line-height: 18px;
+    color: black;
+}
+
+.sort__btn {
+    margin-left: 35px;
+    color: black;
+    opacity: 0.5;
+    border: none;
+    border-bottom: 2px #81b3d2 dotted;
+    outline: none;
+    background: none;
+    font-size: 12px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.sort__btn--active {
+    color: #81b3d2;
+    border: none;
+    opacity: 0.9;
+}
+
+.sort__toggle {
+    display: flex;
+    margin-left: auto;
+    min-width: 34px;
+    padding-right: 73px;
+}
+
+.search__toggle-up {
+    padding-right: 12px;
+}
+
+
+
 
