@@ -1,0 +1,144 @@
+.hotels__filter{
+    min-height: 154px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: white;
+    background-image: url("../img/filter background.png");
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.filter__infrastructure{
+    min-width: 141px;
+    padding-left: 74px;
+}
+
+
+
+
+.filter__type-house{
+    min-width: 141px;
+    padding-left: 114px;
+}
+
+
+
+
+.range__filter {
+    width: 335px;
+    min-height: 154px;
+    margin-left: auto;
+    padding-right: 72px;
+    color: white;
+    background-color: transparent;
+}
+
+.filter__title {
+    padding-top: 20px;
+    padding-left: 75px;
+    margin-top: 0;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.filter__price-controls {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 2px white solid;
+    border-left: none;
+    border-right: none;
+}
+
+.controls__price--min::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    left: 166px;
+    width: 2px;
+    height: 20px;
+    background-color: white;
+}
+
+.controls__price--min,
+.controls__price--max {
+    display: inline-block;
+    width: 127px;
+    padding-left: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.filter__price-controls input {
+    width: 50px;
+    margin: 0;
+    color: inherit;
+    font: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.filter__range-controls {
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.range__scale {
+    width: 100%;
+    height: 2px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.scale__bar {
+    width: 60%;
+    height: 2px;
+    background: white;
+}
+
+.range__toggle {
+    position: absolute;
+    top: 8px;
+    width: 7px;
+    height: 7px;
+    background: darkgray;
+    border: 4px white solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.range__toggle:hover {
+    background: gray;
+}
+
+.range__toggle--min {
+    left: 0%;
+}
+
+.range__toggle--max {
+    left: 60%;
+}
+
+.filter__btn{
+    display: block;
+    padding: 7px 25px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    background: transparent;
+    border: 2px white solid;
+    outline: none;
+    cursor: pointer;
+}
+
+.filter__btn:hover,
+.filter__btn:focus{
+    background: gray;
+}
+

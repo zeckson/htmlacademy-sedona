@@ -214,27 +214,3 @@ main {
     width: 570px;
     height: 397px;
 }
-
-.main__footer{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 120px;
-    margin-top: -120px;
-    background-color: rgba(253,253,253, 0.9);
-}
-
-.footer__social--link{
-    margin: 0;
-    display: flex;
-}
-
-.footer__social--link li{
-    list-style: none;
-    padding-right: 5px;
-
-}
-.footer__develop{
-    display: flex;
-}
