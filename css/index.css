@@ -65,10 +65,10 @@ main {
     color: #333333;
 }
 
-.main__about-1{
+.main__about-first{
     display: flex;
 }
-.about-1__text{
+.about-first__text{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,7 +77,7 @@ main {
     background-color: #81b3d2;
     color: white;
 }
-.about-1__title{
+.about-first__title{
     display: inline-block;
     text-align: center;
     font-size: 21px;
@@ -85,7 +85,7 @@ main {
     font-weight: bold;
     text-transform: uppercase;
 }
-.about-1__text p{
+.about-first__text p{
     display: inline-block;
     text-align: center;
     font-size: 14px;
@@ -112,11 +112,11 @@ main {
     text-transform: uppercase;
 }
 
-.main__about-2{
+.main__about-secondary{
     display: flex;
 }
 
-.main__about-2--text{
+.main__about-secondary--text{
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -126,7 +126,7 @@ main {
     color: white;
 }
 
-.about-2__title{
+.about-secondary__title{
     display: inline-block;
     text-align: center;
     font-size: 21px;
