@@ -10,15 +10,51 @@
     display: flex;
 }
 
+.infrastructure__title,
+.type-house__title {
+    margin: 0;
+}
+
+.check {
+    padding-left: 1.2em;
+}
+
+.check__input {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.check__box-custom {
+    position: absolute;
+    margin-left: -1.2em;
+    width: 1em;
+    height: 1em;
+    background-image: url("../img/checkbox-off.png");
+    background-position: center;
+    background-size: 1em;
+}
+
+.check__input:checked + .check__box-custom {
+    background-image: url("../img/checkbox-on.png");
+}
+
 .filter__infrastructure {
+    position: relative;
     min-width: 141px;
     padding-left: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 
 .filter__type-house {
+    position: relative;
     min-width: 141px;
     padding-left: 114px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 
