@@ -30,11 +30,13 @@ main {
     padding-bottom: 52px;
     position: relative;
 }
-.gallery--to--decor{
+
+.gallery--to--decor {
     position: absolute;
     top: 10px;
     left: -40px;
 }
+
 .gallery--sedona {
     padding-bottom: 56px;
 }
@@ -43,15 +45,16 @@ main {
     padding-bottom: 11px;
 }
 
-.main__about{
+.main__about {
     width: 100%;
-    min-height:216px ;
+    min-height: 216px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.about__title{
+
+.about__title {
     display: inline-block;
     text-align: center;
     font-size: 21px;
@@ -60,15 +63,16 @@ main {
     text-transform: uppercase;
 }
 
-.main__about p{
+.main__about p {
     text-transform: uppercase;
     color: #333333;
 }
 
-.main__about-first{
+.main__about-first {
     display: flex;
 }
-.about-first__text{
+
+.about-first__text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,7 +81,8 @@ main {
     background-color: #81b3d2;
     color: white;
 }
-.about-first__title{
+
+.about-first__title {
     display: inline-block;
     text-align: center;
     font-size: 21px;
@@ -85,18 +90,21 @@ main {
     font-weight: bold;
     text-transform: uppercase;
 }
-.about-first__text p{
+
+.about-first__text p {
     display: inline-block;
     text-align: center;
     font-size: 14px;
     line-height: 21px;
     text-transform: uppercase;
 }
-.main__about-service{
+
+.main__about-service {
     display: flex;
     min-height: 330px;
 }
-.about__service{
+
+.about__service {
     width: 402px;
     display: flex;
     flex-direction: column;
@@ -104,7 +112,7 @@ main {
     align-items: center;
 }
 
-.about__service p{
+.about__service p {
     display: inline-block;
     text-align: center;
     font-size: 14px;
@@ -112,11 +120,11 @@ main {
     text-transform: uppercase;
 }
 
-.main__about-secondary{
+.main__about-secondary {
     display: flex;
 }
 
-.main__about-secondary--text{
+.main__about-secondary--text {
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -126,7 +134,7 @@ main {
     color: white;
 }
 
-.about-secondary__title{
+.about-secondary__title {
     display: inline-block;
     text-align: center;
     font-size: 21px;
@@ -135,7 +143,7 @@ main {
     font-weight: bold;
 }
 
-.main__about-2--text p{
+.main__about-2--text p {
     display: inline-block;
     text-align: center;
     font-size: 14px;
@@ -143,12 +151,13 @@ main {
     text-transform: uppercase;
 }
 
-.main__about--advantage{
+.main__about--advantage {
     display: flex;
     min-height: 256px;
     background-color: #eeeeee;
 }
-.about__advantage{
+
+.about__advantage {
     width: 405px;
     display: flex;
     flex-direction: column;
@@ -156,7 +165,7 @@ main {
     justify-content: center;
 }
 
-.about__advantage--title{
+.about__advantage--title {
     display: inline-block;
     text-align: center;
     font-size: 21px;
@@ -165,7 +174,7 @@ main {
     text-transform: uppercase;
 }
 
-.about__advantage p{
+.about__advantage p {
     display: inline-block;
     text-align: center;
     font-size: 14px;
@@ -173,7 +182,7 @@ main {
     text-transform: uppercase;
 }
 
-.booking{
+.booking {
     min-height: 290px;
     display: flex;
     flex-direction: column;
@@ -181,7 +190,7 @@ main {
     align-items: center;
 }
 
-.booking__title{
+.booking__title {
     display: inline-block;
     text-align: center;
     font-size: 21px;
@@ -190,7 +199,7 @@ main {
     text-transform: uppercase;
 }
 
-.booking p{
+.booking p {
     display: inline-block;
     text-align: center;
     font-size: 14px;
@@ -198,7 +207,7 @@ main {
     text-transform: uppercase;
 }
 
-.booking__btn{
+.booking__btn {
     padding: 37px 140px;
     margin-top: 52px;
     background-color: #766357;
@@ -209,8 +218,35 @@ main {
     border: none;
 }
 
-.booking__pop-up{
-    display: none;
+.booking__pop-up {
     width: 570px;
     height: 397px;
+
+}
+.pop-up__grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pop-up__grid label{
+    height: 37px;
+}
+.date-come{
+    padding-top: 55px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+}
+.date-come input,
+.date-gone input {
+    width: 345px;
+    background-color: grey;
+
+}
+
+.number-adult input,
+.number-children input{
+    width: 114px;
 }
