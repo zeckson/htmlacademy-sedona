@@ -19,7 +19,7 @@
             <li><a class="nav__list--item" href="">фото и видео</a></li>
             <li></li>
             <li><a class="nav__list--item" href="">карта штата</a></li>
-            <li><a class="nav__list--item" href="">гостиницы</a></li>
+            <li><a class="nav__list--item" href="hotels.html">гостиницы</a></li>
         </ul>
     </nav>
 </header>
@@ -92,34 +92,48 @@
         </div>
     </div>
     <div class="booking">
-        <h2 class="booking__title">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
-        <p>кажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне
-        </p>
-        <button class="booking__btn">ПОИСК ГОСТИННИЦЫ В СЕДОНЕ</button>
-        <div class="booking__pop-up">
-            <form class="pop-up__grid">
-                <label class="date-come">ДАТА ЗАЕЗДА<input type="date"></label>
-                <label class="date-gone">ДАТА ВЫЕЗДА<input type="date"></label>
-                <label class="number-adult" >ВЗРОСЛЫЕ<input type="number"></label>
-                <label class="number-children">ДЕТИ<input type="number"></label>
-                <input type="submit">
-            </form>
-        </div>
+        <h3 class="booking__title">Заинтересовались?</h3>
+        <p class="booking__text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в
+            Седоне</p>
+        <form action="#" method="get" class="booking__form">
+            <h2 class="booking__form--title">Поиск гостиницы в Седоне</h2>
+            <div class="booking__form--grid">
+                <div class="form__grid--wrap">
+                    <label for="checkin">Дата заезда:</label>
+                    <div class="check--grid">
+                        <input class="date--input" type="text" id="checkin" value="24 апреля 2015">
+                        <label for="checkin" class="booking__form--calendar">Date</label>
+                    </div>
+                </div>
+                <div class="form__grid--wrap">
+                    <label for="checkout">Дата выезда:</label>
+                    <div class="check--grid">
+                        <input class="date--input" type="text" id="checkout" value="4 июля 2015">
+                        <label for="checkout" class="booking__form--calendar">Date</label>
+                    </div>
+                </div>
+                <div class="form__adults">
+                    <label for="adults">Взрослые:</label>
+                    <div class="input-wrapper check--grid">
+                        <button class="booking__form--minus" href="#">Less</button>
+                        <input class="people-number" id="adults" type="text" pattern="[0-9]*" value="2" min="0">
+                        <button class="booking__form--plus" href="#">More</button>
+                    </div>
+                </div>
+                <div class="form__children">
+                    <label for="children">Дети:</label>
+                    <div class="input-wrapper check--grid">
+                        <button class="booking__form--minus" href="#">Less</button>
+                        <input class="people-number" id="children" type="text" pattern="[0-9]*" value="0" min="0">
+                        <button class="booking__form--plus" href="#">More</button>
+                    </div>
+                </div>
+                <input class="booking--btn" type="submit" value="Найти">
+            </div>
+        </form>
     </div>
-    <img class="map" src="img/map.png" width="1200" height="593" alt="map">
-</main>
-<footer class="main__footer">
-    <h2 class="hashtag__title">#VISITSEDONA</h2>
-    <ul class="footer__social--link">
-        <li><a href=""><img src="img/t.png" width="17" height="15" alt="twit-icon"></a></li>
-        <li><a href=""><img src="img/fb-icon.png" width="12" height="22" alt="fb-icon"></a></li>
-        <li><a href=""><img src="img/youtube.png" width="20" height="16" alt="yutb-icon"></a></li>
-    </ul>
-    <div class="footer__develop">
-        <p>РАЗРАБОТЧИК</p>
-        <img src="img/logo_name.png" width="115" height="41" alt="develop-logo">
-    </div>
-</footer>
+
+        </footer>
 
 </body>
 </html>

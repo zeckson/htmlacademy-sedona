@@ -183,70 +183,183 @@ main {
 }
 
 .booking {
-    min-height: 290px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-top: 55px;
+    position: relative;
+    width: 568px;
+    margin: 0 auto;
 }
 
 .booking__title {
-    display: inline-block;
-    text-align: center;
-    font-size: 21px;
-    line-height: 21px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.booking p {
-    display: inline-block;
-    text-align: center;
-    font-size: 14px;
-    line-height: 21px;
-    text-transform: uppercase;
-}
-
-.booking__btn {
-    padding: 37px 140px;
-    margin-top: 52px;
-    background-color: #766357;
-    color: white;
-    font-size: 21px;
-    line-height: 24px;
-    font-weight: bold;
-    border: none;
-}
-
-.booking__pop-up {
-    width: 570px;
-    height: 397px;
-
-}
-.pop-up__grid{
+    font-weight: 700;
+    font-size: 30px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
-.pop-up__grid label{
-    height: 37px;
+
+.booking__text {
+    width: 70%;
+    line-height: 24px;
+    margin-bottom: 55px;
+    margin-top: 33px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #333333;
 }
-.date-come{
-    padding-top: 55px;
-    margin-bottom: 30px;
+
+.booking__form {
+    width: 568px;
+    min-height: 480px;
+    position: absolute;
+    z-index: 1000;
+    left: 50%;
+    top: 205px;
+    margin-left: -284px;
+    box-shadow: 0 7px 15px 0 rgba(0, 1, 1, 0.15);
+    font-weight: 700;
+    font-size: 0;
+}
+
+.booking__form--grid {
+    background-color: #ffffff;
+    padding: 56px 55px;
+    min-height: 395px;
+    box-sizing: border-box;
+}
+
+.booking__form--title {
+    font-size: 21px;
+    line-height: 86px;
+    color: #ffffff;
+    margin: 0 auto;
+    background-color: #766357;
+    text-align: center;
+}
+
+.form__grid--wrap {
+    margin-bottom: 29px;
+}
+
+.booking__form--grid label {
+    display: inline-block;
+    width: 112px;
     font-size: 14px;
-    line-height: 26px;
-    font-weight: bold;
-}
-.date-come input,
-.date-gone input {
-    width: 345px;
-    background-color: grey;
-
+    vertical-align: middle;
+    line-height: 21px;
 }
 
-.number-adult input,
-.number-children input{
+.booking__form--grid input {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+
+.booking__form--grid input[type="text"],
+.booking__form--grid input[type="number"] {
+    width: 100%;
+    height: 38px;
+    background-color: #f2f2f2;
+    border: none;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 0 40px 0 14px;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.form__adults {
+    width: 233px;
+    margin-right: 45px;
+}
+
+.form__children {
+    width: 180px;
+}
+
+
+.form__adults,
+.form__children {
+
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 55px;
+}
+
+.booking__form--grid input[id="adults"],
+.booking__form--grid input[id="children"] {
+    width: 100%;
+    padding: 0 40px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.booking__form--grid input[type="number"] {
+    text-align: center;
+}
+
+.children label {
+    width: 65px;
+}
+
+.booking--btn {
+    width: 100%;
+    height: 58px;
+    font-size: 21px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #81b3d2;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "PT Sans", sans-serif;
+}
+
+.check--grid {
+    display: inline-block;
+    position: relative;
+    width: 346px;
+}
+
+.input-wrapper {
     width: 114px;
 }
+
+label.booking__form--calendar {
+    width: 20px;
+    height: 22px;
+    background: url("");
+    position: absolute;
+    top: 50%;
+    right: 9px;
+    margin-top: -12px;
+    font-size: 0;
+    cursor: pointer;
+}
+
+
+.booking__form--minus {
+    width: 24px;
+    height: 20px;
+    background: url("");
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    margin-top: -10px;
+    font-size: 0;
+}
+
+.booking__form--plus {
+    width: 24px;
+    height: 20px;
+    background: url("");
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    margin-top: -10px;
+    font-size: 0;
+}
+
+
+
+
+

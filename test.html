@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="booking">
+    <h3 class="booking__title">Заинтересовались?</h3>
+    <p class="booking__text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в
+        Седоне</p>
+    <form action="#" method="get" class="booking__form">
+        <h2 class="booking__form--title">Поиск гостиницы в Седоне</h2>
+        <div class="booking__form--grid">
+            <div class="form__grid--wrap">
+                <label for="checkin">Дата заезда:</label>
+                <div class="check--grid">
+                    <input class="date--input" type="text" id="checkin" value="24 апреля 2015">
+                    <label for="checkin" class="booking__form--calendar">Date</label>
+                </div>
+            </div>
+            <div class="form__grid--wrap">
+                <label for="checkout">Дата выезда:</label>
+                <div class="check--grid">
+                    <input class="date--input" type="text" id="checkout" value="4 июля 2015">
+                    <label for="checkout" class="booking__form--calendar">Date</label>
+                </div>
+            </div>
+            <div class="form__adults">
+                <label for="adults">Взрослые:</label>
+                <div class="input-wrapper check--grid">
+                    <button class="booking__form--minus" href="#">Less</button>
+                    <input class="people-number" id="adults" type="text" pattern="[0-9]*" value="2" min="0">
+                    <button class="booking__form--plus" href="#">More</button>
+                </div>
+            </div>
+            <div class="form__children">
+                <label for="children">Дети:</label>
+                <div class="input-wrapper check--grid">
+                    <button class="booking__form--minus" href="#">Less</button>
+                    <input class="people-number" id="children" type="text" pattern="[0-9]*" value="0" min="0">
+                    <button class="booking__form--plus" href="#">More</button>
+                </div>
+            </div>
+            <input class="booking--btn" type="submit" value="Найти">
+        </div>
+    </form>
+</div>
+</body>
+</html>
