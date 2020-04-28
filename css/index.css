@@ -327,7 +327,7 @@ main {
 label.booking__form--calendar {
     width: 20px;
     height: 22px;
-    background: url("");
+    background: url("../img/calendar.png");
     position: absolute;
     top: 50%;
     right: 9px;
@@ -340,7 +340,7 @@ label.booking__form--calendar {
 .booking__form--minus {
     width: 24px;
     height: 20px;
-    background: url("");
+    background: url("../img/-.png");
     position: absolute;
     top: 50%;
     left: 8px;
@@ -351,14 +351,13 @@ label.booking__form--calendar {
 .booking__form--plus {
     width: 24px;
     height: 20px;
-    background: url("");
+    background: url("../img/+.png");
     position: absolute;
     top: 50%;
     right: 8px;
     margin-top: -10px;
     font-size: 0;
 }
-
 
 
 
