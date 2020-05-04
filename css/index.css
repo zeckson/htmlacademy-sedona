@@ -207,6 +207,19 @@ main {
     color: #333333;
 }
 
+.booking__form--btn{
+    width: 570px;
+    height: 87px;
+    outline: none;
+    border: none;
+    padding: 0;
+    font-size: 21px;
+    line-height: 86px;
+    color: #ffffff;
+    margin: 0 auto;
+    background-color: #766357;
+    text-align: center;
+}
 .booking__form {
     display: none;
     width: 568px;
@@ -228,14 +241,6 @@ main {
     box-sizing: border-box;
 }
 
-.booking__form--title {
-    font-size: 21px;
-    line-height: 86px;
-    color: #ffffff;
-    margin: 0 auto;
-    background-color: #766357;
-    text-align: center;
-}
 
 .form__grid--wrap {
     margin-bottom: 29px;
