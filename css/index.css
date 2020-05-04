@@ -207,7 +207,7 @@ main {
     color: #333333;
 }
 
-.booking__form--btn{
+.booking__form--btn {
     width: 570px;
     height: 87px;
     outline: none;
@@ -221,6 +221,16 @@ main {
     text-align: center;
     cursor: pointer;
 }
+
+.booking__form--btn:hover,
+.booking__form--btn:focus {
+    background-color: #604e43;
+}
+
+.booking__form--btn:active {
+    background-color: #503e33;
+}
+
 .booking__form {
     display: none;
     width: 568px;
@@ -228,9 +238,9 @@ main {
     position: absolute;
     z-index: 1000;
     left: 50%;
-    top: 205px;
+    top: 370px;
     margin-left: -284px;
-    box-shadow: 0 7px 15px 0 rgba(0, 1, 1, 0.15);
+    /*box-shadow: 0 7px 15px 0 rgba(0, 1, 1, 0.15);*/
     font-weight: 700;
     font-size: 0;
 }
@@ -275,6 +285,11 @@ main {
     font-size: 14px;
 }
 
+.booking__form--grid input[type="text"]:hover,
+.booking__form--grid input[type="number"]:hover {
+    background-color: #ebebeb;
+}
+
 .form__adults {
     width: 233px;
     margin-right: 45px;
@@ -287,7 +302,6 @@ main {
 
 .form__adults,
 .form__children {
-
     display: inline-block;
     box-sizing: border-box;
     margin-bottom: 55px;
@@ -320,6 +334,14 @@ main {
     font-weight: 700;
     font-family: "PT Sans", sans-serif;
 }
+.booking--btn:hover,
+.booking--btn:focus{
+    background-color: #669ec0;
+}
+.booking--btn:active{
+    background-color: #5496bd;
+    color: rgba(255,255,255, 0.4);
+}
 
 .check--grid {
     display: inline-block;
@@ -332,9 +354,11 @@ main {
 }
 
 label.booking__form--calendar {
-    width: 20px;
+    width: 22px;
     height: 22px;
-    background: url("../img/calendar.png");
+    background-image: url("../img/calendar.png");
+    background-repeat: no-repeat;
+    background-position: center;
     position: absolute;
     top: 50%;
     right: 9px;
@@ -347,7 +371,9 @@ label.booking__form--calendar {
 .booking__form--minus {
     width: 24px;
     height: 20px;
-    background: url("../img/-.png");
+    background-image: url("../img/-.png");
+    background-position: center;
+    background-repeat: no-repeat;
     position: absolute;
     top: 50%;
     left: 8px;
@@ -358,7 +384,9 @@ label.booking__form--calendar {
 .booking__form--plus {
     width: 24px;
     height: 20px;
-    background: url("../img/+.png");
+    background-image: url("../img/+.png");
+    background-repeat: no-repeat;
+    background-position: center;
     position: absolute;
     top: 50%;
     right: 8px;
