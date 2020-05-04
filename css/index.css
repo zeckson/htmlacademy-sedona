@@ -219,6 +219,7 @@ main {
     margin: 0 auto;
     background-color: #766357;
     text-align: center;
+    cursor: pointer;
 }
 .booking__form {
     display: none;
