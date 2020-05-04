@@ -1,12 +1,12 @@
 
-.main__footer{
+.hotels__footer{
+    padding-left: 72px;
+    padding-right: 72px;
     display: flex;
-    width: 100%;
     justify-content: space-around;
     align-items: center;
     min-height: 120px;
-    margin-top: -120px;
-    background: rgba(253,253,253, 0.9);
+    background-color: white;
 }
 
 .footer__social--link{
