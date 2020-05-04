@@ -334,13 +334,15 @@ main {
     font-weight: 700;
     font-family: "PT Sans", sans-serif;
 }
+
 .booking--btn:hover,
-.booking--btn:focus{
+.booking--btn:focus {
     background-color: #669ec0;
 }
-.booking--btn:active{
+
+.booking--btn:active {
     background-color: #5496bd;
-    color: rgba(255,255,255, 0.4);
+    color: rgba(255, 255, 255, 0.4);
 }
 
 .check--grid {

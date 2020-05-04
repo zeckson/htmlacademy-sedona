@@ -25,12 +25,42 @@
     justify-content: center;
     align-items: center;
     background-color: #81b3d2;
-
 }
+.footer__social--link a:hover,
+.footer__social--link a:focus{
+    background-color: #669ec0;
+}
+.footer__social--link a:active{
+    background-color: #5496bd;
+}
+.twit-icon{
+    background-image: url(../img/t.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    fill: white;
+}
+.twit-icon:active{
+    fill: gray;
+}
+
 .footer__develop{
     display: flex;
     align-items: center;
 }
 .footer__develop p{
     margin-right: 10px;
+}
+.footer__develop div{
+    width: 115px;
+    height: 42px;
+    background-image: url("../img/logo_name.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer__develop div:hover{
+    background-image: url("../img/logo_name_b.png");
+}
+.footer__develop div:active{
+    background-image: url("../img/logo_name_g.png");
 }
